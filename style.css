@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@300&display=swap');
+body{
+  background-image: url("https://peakfencing.com/wp-content/uploads/2017/04/Field-Fence-Full-Size-horizontal-crop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.card h1{
+  color:#a7570c ;
+  font-style:italic;
+  font-family:inherit;
+}
+.row{
+  font-weight: 400;
+  row-gap: 5px;
+}
+.label{
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+}
+input{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style:groove;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+.button{
+
+  margin-top: 30px;
+  border-radius: 10px;
+  height:fit-content;
+  width: fit-content;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.result{
+  margin-top: 30px;
+
+}
+.main-col{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.card{
+  padding: 20px;
+  border-radius: 16px !important;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
